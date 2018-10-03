@@ -49,6 +49,31 @@
   </div>
 
   <section>
+    <p class="location">@NRL</p>
+    <p class="research-summary">How to optimize chemical environments to promote long-lived quantum processes and energy transport.</p>
+    <ol>
+      <a data-toggle="collapse" href="#description1"><li>Prolonging quantum coherence by inducing correlated environmental perturbations</li></a>
+      <div id="description1" class="description collapse">
+        <p>Quantum coherence is studied in many different quantum substrates, with different associated coherence lifetimes. Molecular substrates have very fast dephasing compared to other types, such as nuclear spins or nitrogen vacancies in diamond lattices. Despite this deficiency, it would be beneficial for technological speed, footprint, and scalability if molecular systems could be used for applications that require long-lived quantum coherences. Furthermore, these substrates are all open quantum systems with similar dephasing mechanisms, namely the perturbations from their respective environments. Therefore, if principles can be deduced to optimize dephasing in molecular systems, in principle they could also be applied to these other systems. Molecular systems have the additional advantage of tunability, potentially in a high-throughput mode, which makes them a good model system.</p>
+        <p>In this project, I am using DNA as a scaffold to prepare networks of chromophores with well-controlled intermolecular distances. My goal is to engineer not only the chromophore coupling, but more importantly the coupling among their perturbative environments. If environment-environment coupling can be induced, then these environmental motions may synchronize, as described by the Kuramoto model. This synchronization, even of environmental vibrational modes with distinct natural frequencies, may correlate the perturbations of the electronic states and prolong the dephasing time of the associated excitonic coherences.</p>
+        <img src="#" class="research-img">
+      </div>
+
+      <a data-toggle="collapse" href="#description2"><li>Deducing feature importance of energy transfer data sets using machine-learning algorithms</li></a>
+      <div id="description2" class="description collapse">
+        <p>Biology uses chromophore antennas to collect energy from light and funnel it toward regions where it may be extracted. This energy transfer largely occurs by Förster Resonance Energy Transfer, which depends on the distance and orientations of the energy relay’s constituent chromophores. While these parameters can be controlled in their protein environments, it is a challenge to control them in artificial systems.</p>
+        <p>We have synthesized a large library of chromophore networks embedded on DNA scaffolds, and obtained steady-state fluorescence spectra for each sample. While we know the chromophore positions, we do not know which sites are most important for energy transfer, or which sites may represent traps that reduce energy transfer efficiency. Unfortunately, the data set is too large and depends on too many parameters to understand by human inspection alone. I have used machine-learning algorithms to train a predictive model based on this data. Using this model, I have determined the feature importance for each chromophore along the relay.</p>
+        <img src="#" class="research-img">
+      </div>
+
+      <a data-toggle="collapse" href="#description3"><li>Modeling energy transfer in systems that use DNA nanotechnology</li></a>
+      <div id="description3" class="description collapse">
+        <p>DNA scaffolds offer Angstrom-scale accuracy for the positions of attached chromophores. They can be brought very close to each other, such that their electronic states mix. In these cases, it is difficult to deduce the energy or rate information from the absorption and fluorescence spectra alone, because energy transfer processes occur among mixed donor and acceptor states. I am implementing the generalized FRET model originally published by Scholes, Jordanides, and Fleming  (JPC B 2001, 105, 1640-51) in order to clarify the electronic processes occurring in our decorated DNA scaffolds.</p>
+      </div>
+    </ol>
+  </section>
+
+  <section>
     <p class="location">@Uchicago</p>
     <p class="research-summary">How collective behaviors interface with quantum processes</p>
     <ol>
